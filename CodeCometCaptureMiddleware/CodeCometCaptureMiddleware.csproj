@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <PackageId>CodeComet.CaptureMiddleware</PackageId>
+        <Version>0.1.0</Version>
+        <Authors>CodeComet</Authors>
+        <Company>CodeComet</Company>
+        <Description>A middleware for capturing API requests and sending relevant data to CodeComet.
+            See more info at https://codecomet.io and our middleware Github repo at
+            https://github.com/codecomet-io/codecomet-dotnet-middleware
+        </Description>
+        <PackageTags>middleware capture codecomet aspnetcore</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/codecomet-io/codecomet-dotnet-middleware</RepositoryUrl>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+        <PackageReference Include="System.Text.Json" Version="8.0.3" />
+        <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    </ItemGroup>
+</Project>
