@@ -18,7 +18,7 @@ namespace CodeComet
         private readonly string _externalServerUrl;
 
         private readonly bool _captureAll;
-        private const string DefaultExternalServerUrl = "http://app.codecomet.io/api/trafficconsumer.TrafficService/IngestTrafficLog";
+        private const string DefaultExternalServerUrl = "https://app.codecomet.io/api/trafficconsumer.TrafficService/IngestTrafficLog";
 
 
         private const string RFC3339Fmt = "yyyy-MM-ddTHH:mm:ss.fffK";

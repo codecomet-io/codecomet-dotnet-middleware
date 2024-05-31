@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <PackageId>CodeComet.CaptureMiddleware</PackageId>
-        <Version>0.1.0</Version>
+        <Version>0.1.1</Version>
         <Authors>CodeComet</Authors>
         <Company>CodeComet</Company>
         <Description>A middleware for capturing API requests and sending relevant data to CodeComet.
